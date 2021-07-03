@@ -138,10 +138,7 @@ router.route('/deleteUserPoints').post(function(req,res){
 
 router.route('/').get(function(req,res){
 	res.status(200).json('---ready////');
-	/*
-	dbusuarios.getUsuarios().then(result=> {
-		res.status(200).json(result[0]);
-	})	*/
+	
 	
 }) 
 server.listen(port,function(){
